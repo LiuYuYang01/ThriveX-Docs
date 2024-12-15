@@ -6,7 +6,17 @@ export default defineConfig({
   description: "ThriveX 项目文档",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'stylesheet', href: '/styles/custom.css' }]
+    ['link', { rel: 'stylesheet', href: '/styles/custom.css' }],
+    // 引入百度统计配置
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f3718a3e71b9e43dd7628b6d2e5f2b75";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `]
   ],
   themeConfig: {
     logo: '/logo.png',
