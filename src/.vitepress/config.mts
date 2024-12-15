@@ -6,7 +6,7 @@ export default defineConfig({
   description: "ThriveX 项目文档",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'stylesheet', href: '/style/custom.scss' }]
+    ['link', { rel: 'stylesheet', href: '/styles/custom.css' }]
   ],
   themeConfig: {
     logo: '/logo.png',
