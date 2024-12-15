@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/what-is-vitepress
+      link: /docs/项目介绍/README
     - theme: alt
       text: 预览
       link: https://liuyuyang.net
