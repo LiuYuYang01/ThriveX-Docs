@@ -44,7 +44,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '项目部署',
+        text: '项目部署（待完善）',
         collapsed: true,
         items: [
           { text: '1. 部署', link: '/docs/项目部署/README' },
