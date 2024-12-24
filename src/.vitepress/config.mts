@@ -45,6 +45,7 @@ export default defineConfig({
       },
       {
         text: '项目部署',
+        collapsed: true,
         items: [
           { text: '1. 部署', link: '/docs/项目部署/README' },
           { text: '2. 前端', link: '/docs/项目部署/前端' },
@@ -55,6 +56,7 @@ export default defineConfig({
       },
       {
         text: '第三方服务',
+        collapsed: true,
         items: [
           { text: '高德地图', link: '/docs/项目部署/API/高德地图' },
           { text: '百度统计', link: '/docs/项目部署/API/百度统计' },
@@ -68,5 +70,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  // 最后一次更新时间
+  lastUpdated: true,
 })
