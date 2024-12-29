@@ -13,6 +13,9 @@ hero:
       text: 开始
       link: /docs/项目介绍/README
     - theme: alt
+      text: 官网
+      link: /docs/项目介绍/README
+    - theme: alt
       text: 预览
       link: https://liuyuyang.net
 
