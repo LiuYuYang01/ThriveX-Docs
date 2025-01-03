@@ -25,7 +25,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '项目介绍', link: '/docs/项目介绍/README' },
-      { text: '项目部署', link: '/docs/项目部署/README' }
+      { text: '项目部署', link: '/docs/项目部署/README' },
+      { text: '项目使用', link: '/docs/项目使用/README' }
     ],
 
     sidebar: [

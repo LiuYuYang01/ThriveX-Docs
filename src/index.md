@@ -14,7 +14,7 @@ hero:
       link: /docs/项目介绍/README
     - theme: alt
       text: 官网
-      link: /docs/项目介绍/README
+      link: https://thrivex.liuyuyang.net
     - theme: alt
       text: 预览
       link: https://liuyuyang.net
