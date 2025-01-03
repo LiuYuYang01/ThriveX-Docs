@@ -56,6 +56,14 @@ export default defineConfig({
         ]
       },
       {
+        text: '项目使用',
+        collapsed: true,
+        items: [
+          { text: '前言', link: '/docs/项目使用/README' },
+          { text: '前端', link: '/docs/项目使用/前端' },
+        ]
+      },
+      {
         text: '第三方服务',
         collapsed: true,
         items: [
