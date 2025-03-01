@@ -26,7 +26,7 @@ features:
 
   - icon: 🚀
     title: 前沿技术栈
-    details: 基于 NestJS、Spring Boot 流行技术构建，确保平台的稳健和可扩展性。
+    details: 基于 NextJS、Spring Boot 流行技术构建，确保平台的稳健和可扩展性。
 
   - icon: ❤️
     title: 热情驱动开发
