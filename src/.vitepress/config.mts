@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ThriveX 项目文档",
-  description: "ThriveX 项目文档",
+  description: "ThriveX 现代化博客管理系统官方文档",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: '/styles/custom.css' }],
@@ -78,7 +78,45 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    // 开启深层目录
+    outline: "deep",
+
+    // 汉化内容
+    outlineTitle: "目录",
+    docFooter: {
+      prev: "上一篇",
+      next: "下一篇",
+    },
+    darkModeSwitchTitle: "切换暗色主题",
+    lightModeSwitchTitle: "切换亮色主题",
+    darkModeSwitchLabel: "切换主题",
+    sidebarMenuLabel: "菜单",
+    returnToTopLabel: "回到顶部",
+    langMenuLabel: "切换语言",
+    lastUpdatedText: "更新时间",
+    externalLinkIcon: true,
+    search: {
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "搜索文档",
+          },
+          modal: {
+            displayDetails: "显示详情",
+            noResultsText: "未找到相关结果",
+            resetButtonTitle: "清除",
+            footer: {
+              closeText: "关闭",
+              selectText: "选择",
+              navigateText: "切换",
+            },
+          },
+        },
+      },
+    }
   },
   // 最后一次更新时间
   lastUpdated: true,
