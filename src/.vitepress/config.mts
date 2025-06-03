@@ -70,7 +70,6 @@ export default defineConfig({
         items: [
           { text: '高德地图', link: '/docs/项目部署/API/高德地图' },
           { text: '百度统计', link: '/docs/项目部署/API/百度统计' },
-          { text: '星火大模型', link: '/docs/项目部署/API/星火大模型' },
           { text: '对象存储', link: '/docs/项目部署/API/对象存储' },
           { text: '邮件提醒', link: '/docs/项目部署/API/邮件提醒' },
         ]
@@ -78,7 +77,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/LiuYuYang01/ThriveX-Blog' }
     ],
 
     // 开启深层目录
