@@ -17,17 +17,14 @@
 
 🎉 `ThriveX` 是一个年轻、高颜值、全开源、永不收费的现代化博客管理系统，它是一个基于 `NextJS` + `Spring Boot` 的产物，所有技术栈都是目前市面上最主流的
 
-
 🗂️ **项目预览：** [https://liuyuyang.net/](https://liuyuyang.net/)
-
-
 
 🛠️ **技术架构：**
 
-前端：React、**NextJS**、**TailwindCSS**、TypeScript、Zustand、React Form Hooks、Echarts、Antd、Scss、Vercel、Docker
+前端：React **19**、**Next.js 15**、**TailwindCSS 4**、TypeScript、Zustand、Motion React、React Form Hooks、Echarts、Antd、Scss、Vercel、Docker
 
 
-后端：**Spring Boot**、Mybatis Plus、MySQL、Qiniu、Swagger、Docker
+后端：**Spring Boot**、Mybatis Plus、MySQL、X File Storage、Swagger、Docker
 
 
 

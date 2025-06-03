@@ -36,23 +36,24 @@ export default defineConfig({
           { text: '1. 介绍', link: '/docs/项目介绍/README' },
           { text: '2. 项目演示', link: '/docs/项目介绍/项目演示' },
           { text: '3. 项目结构', link: '/docs/项目介绍/项目结构' },
-          { text: '4. 项目运行', link: '/docs/项目介绍/项目运行' },
-          { text: '5. 常见疑惑', link: '/docs/项目介绍/常见疑惑' },
-          { text: '6. 关于项目', link: '/docs/项目介绍/关于项目' },
-          { text: '7. 开源协议', link: '/docs/项目介绍/开源协议' },
-          { text: '8. 开源地址', link: '/docs/项目介绍/开源地址' },
-          { text: '9. 技术交流群', link: '/docs/项目介绍/技术交流群' },
+          { text: '4. 关于项目', link: '/docs/项目介绍/关于项目' },
+          { text: '5. 特别鸣谢', link: '/docs/项目介绍/特别鸣谢' },
+          { text: '6. 开源协议', link: '/docs/项目介绍/开源协议' },
+          { text: '7. 开源地址', link: '/docs/项目介绍/开源地址' },
+          { text: '8. 技术交流群', link: '/docs/项目介绍/技术交流群' },
+          { text: '9. 常见疑惑', link: '/docs/项目介绍/常见疑惑' },
+          { text: '10. 研发计划', link: '/docs/项目介绍/研发计划' },
         ]
       },
       {
-        text: '项目部署（待完善）',
+        text: '项目部署',
         collapsed: true,
         items: [
           { text: '1. 部署', link: '/docs/项目部署/README' },
           { text: '2. 前端', link: '/docs/项目部署/前端' },
           { text: '3. 控制端', link: '/docs/项目部署/控制端' },
           { text: '4. 后端', link: '/docs/项目部署/后端' },
-          { text: '5. 数据库（待完善）', link: '/docs/项目部署/数据库' }
+          { text: '5. 数据库', link: '/docs/项目部署/数据库' }
         ]
       },
       {
