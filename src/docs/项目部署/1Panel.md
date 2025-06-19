@@ -77,7 +77,7 @@ ubuntu@10-60-211-244:/tmp/1panel-v1.10.29-lts-linux-amd64$
 
 **mysql：** `8.0.42`
 
-![image-20250617165823585](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250617165823585.png)
+![image-20250617165823585](./assets/image-20250617165823585.png)
 
 
 
@@ -97,13 +97,13 @@ ubuntu@10-60-211-244:/tmp/1panel-v1.10.29-lts-linux-amd64$
 
 选择最上面的最新版，然后找到 `Assets` 中的 `blog.jar` 点击下载
 
-![image-20250617160424392](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250617160424392.png)
+![image-20250617160424392](./assets/image-20250617160424392.png)
 
 
 
 **下载 SQL 文件：** https://github.com/LiuYuYang01/ThriveX-Server/blob/master/ThriveX.sql
 
-![image-20250617160731399](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250617160731399.png)
+![image-20250617160731399](./assets/image-20250617160731399.png)
 
 
 
@@ -133,7 +133,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 #### 创建数据库
 
-![image-20250618203017720](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618203017720.png)
+![image-20250618203017720](./assets/image-20250618203017720.png)
 
 
 
@@ -141,7 +141,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 点击左侧菜单中的 数据库 选项后，在列表中找到刚刚创建的数据库，在右侧按钮中点击 **导入备份** 按钮弹出该界面 进行导入数据
 
-![image-20250617193037285](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250617193037285.png)
+![image-20250617193037285](./assets/image-20250617193037285.png)
 
 
 
@@ -151,7 +151,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 然后将刚刚下载的 `blog.jar` 上传到这个目录
 
-![PixPin_2025-06-17_17-04-30](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/PixPin_2025-06-17_17-04-30.jpg)
+![PixPin_2025-06-17_17-04-30](./assets/PixPin_2025-06-17_17-04-30.jpg)
 
 
 
@@ -165,19 +165,19 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 8：名称和容器名都可以自定义
 
-![image-20250618203123056](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618203123056.png)
+![image-20250618203123056](./assets/image-20250618203123056.png)
 
 
 
 创建成功后查看运行环境的状态是否为 **已启动**，如果是则表示截止目前为止一切顺利，否则请查看数据库密码、环境变量等是否正确
 
-![image-20250617194157163](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250617194157163.png)
+![image-20250617194157163](./assets/image-20250617194157163.png)
 
 #### 创建网站
 
 选择刚刚创建的运行环境，并绑定自己的域名
 
-![image-20250618201116454](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618201116454.png)
+![image-20250618201116454](./assets/image-20250618201116454.png)
 
 
 
@@ -187,7 +187,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 配置自己的证书信息，证书大家自行想办法，网上有很多免费的
 
-![image-20250618202648890](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618202648890.png)
+![image-20250618202648890](./assets/image-20250618202648890.png)
 
 
 
@@ -208,7 +208,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 当响应的 `code` 为 `200` 则表示一切顺利，后端部署成功 🎉🎉🎉
 
-![image-20250618115334284](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618115334284.png)
+![image-20250618115334284](./assets/image-20250618115334284.png)
 
 此刻你应该给自己鼓鼓掌 👏🏻👏🏻👏🏻
 
@@ -222,7 +222,7 @@ java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrive
 
 跟后端一样选择最上面的最新版，不同的是这次下载 `Source code` 这个文件
 
-![image-20250618194022392](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618194022392.png)
+![image-20250618194022392](./assets/image-20250618194022392.png)
 
 
 
@@ -254,7 +254,7 @@ Run `npm audit` for details.
 
 接下来后找到项目根目录中的 `.env` 文件，把相关信息改成自己的，注意后端域名协议必须是 `https`
 
-![image-20250618211522217](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618211522217.png)
+![image-20250618211522217](./assets/image-20250618211522217.png)
 
 
 
@@ -390,13 +390,13 @@ dist/assets/index-39f948cc.js                         3,853.54 kB │ gzip: 1,19
 
 接下来我们需要将 `dist` 目录中的文件压缩为 `.zip` 格式，待会要上传到服务器
 
-![image-20250618200217827](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618200217827.png)
+![image-20250618200217827](./assets/image-20250618200217827.png)
 
 
 
 #### 创建网站
 
-![image-20250618201233302](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618201233302.png)
+![image-20250618201233302](./assets/image-20250618201233302.png)
 
 
 
@@ -410,19 +410,19 @@ dist/assets/index-39f948cc.js                         3,853.54 kB │ gzip: 1,19
 
 点击进入到网站对应的目录，然后当前默认的文件都删掉
 
-![image-20250618201347644](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618201347644.png)
+![image-20250618201347644](./assets/image-20250618201347644.png)
 
 
 
 上传刚刚打包后的 `dist` 文件
 
-![image-20250618201625654](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618201625654.png)
+![image-20250618201625654](./assets/image-20250618201625654.png)
 
 
 
 上传完成后解压刚刚上传的 `dist.zip` 压缩包
 
-![image-20250618201735354](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618201735354.png)
+![image-20250618201735354](./assets/image-20250618201735354.png)
 
 
 
@@ -430,7 +430,7 @@ dist/assets/index-39f948cc.js                         3,853.54 kB │ gzip: 1,19
 
 单页面项目都会存在一种问题，第一次进入页面是正常的，但在刷新时候会导致 `404`，我们可以通过以下方式解决
 
-![image-20250618210305325](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618210305325.png)
+![image-20250618210305325](./assets/image-20250618210305325.png)
 
 复制粘贴到配置中
 
@@ -465,7 +465,7 @@ location / {
 
 跟控制端一样下载 `Source code` 这个文件
 
-![image-20250618194022392](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618194022392.png)
+![image-20250618194022392](./assets/image-20250618194022392.png)
 
 
 
@@ -475,7 +475,7 @@ location / {
 
 它们的作用都是一样的，待会我们需要这些目录上传到服务器
 
-![image-20250618205250017](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250618205250017.png)
+![image-20250618205250017](./assets/image-20250618205250017.png)
 
 
 
@@ -483,15 +483,15 @@ location / {
 
 将这些文件压缩，准备上传到服务器
 
-![image-20250619120219749](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619120219749.png)
+![image-20250619120219749](./assets/image-20250619120219749.png)
 
 在 `1Panel` 系统 / 文件中创建一个目录 `www/thrivex_blog`，然后将刚刚压缩的文件上传到这里并解压
 
-![image-20250619120618465](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619120618465.png)
+![image-20250619120618465](./assets/image-20250619120618465.png)
 
 解压之后的结构
 
-![PixPin_2025-06-19_12-20-37](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/PixPin_2025-06-19_12-20-37.jpg)
+![PixPin_2025-06-19_12-20-37](./assets/PixPin_2025-06-19_12-20-37.jpg)
 
 
 
@@ -499,17 +499,17 @@ location / {
 
 `Nodejs` 版本选择 `20`，镜像源选择淘宝的
 
-![PixPin_2025-06-19_12-20-33](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/PixPin_2025-06-19_12-20-33.jpg)
+![PixPin_2025-06-19_12-20-33](./assets/PixPin_2025-06-19_12-20-33.jpg)
 
 如果这里状态为 **已启动**，则表示截止目前为止一切顺利
 
-![image-20250619122623993](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619122623993.png)
+![image-20250619122623993](./assets/image-20250619122623993.png)
 
 
 
 #### 创建网站
 
-![image-20250619122831946](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619122831946.png)
+![image-20250619122831946](./assets/image-20250619122831946.png)
 
 
 
@@ -545,9 +545,9 @@ location / {
 | 控制端 | [LiuYuYang01/ThriveX-Admin (github.com)](https://github.com/LiuYuYang01/ThriveX-Admin) |
 | 后端   | [LiuYuYang01/ThriveX-Server (github.com)](https://github.com/LiuYuYang01/ThriveX-Server) |
 
-![image-20250619123909814](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619123909814.png)
+![image-20250619123909814](./assets/image-20250619123909814.png)
 
-![image-20250619124915513](/Users/yang/Desktop/收纳/项目/ThriveX/ThriveX-Docs/src/docs/项目部署/assets/image-20250619124915513.png)
+![image-20250619124915513](./assets/image-20250619124915513.png)
 
 
 
