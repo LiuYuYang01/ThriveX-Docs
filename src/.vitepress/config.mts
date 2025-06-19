@@ -49,11 +49,7 @@ export default defineConfig({
         text: '项目部署',
         collapsed: true,
         items: [
-          { text: '1. 部署', link: '/docs/项目部署/README' },
-          { text: '2. 前端', link: '/docs/项目部署/前端' },
-          { text: '3. 控制端', link: '/docs/项目部署/控制端' },
-          { text: '4. 后端', link: '/docs/项目部署/后端' },
-          { text: '5. 数据库', link: '/docs/项目部署/数据库' }
+          { text: '1Panel', link: '/docs/项目部署/1Panel' },
         ]
       },
       {
