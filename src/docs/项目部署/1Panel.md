@@ -45,7 +45,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/1panel.service → /
 [1Panel Log]: =================感谢您的耐心等待，安装已完成================== 
 [1Panel Log]:  
 [1Panel Log]: 请使用您的浏览器访问面板:  
-[1Panel Log]: 外部地址:  http://117.50.197.159:11803/daab25c3fa 
+[1Panel Log]: 外部地址:  http://11.22.333.444:11803/daab25c3fa 
 [1Panel Log]: 内部地址:  http://10.60.211.244:11803/daab25c3fa 
 [1Panel Log]: 面板用户:  3eeebb5afd 
 [1Panel Log]: 面板密码:  918712928a 
