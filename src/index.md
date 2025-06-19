@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: ThriveX
-  text: 现代化CMS管理系统
+  text: 现代化 CMS 管理系统
   tagline: 年轻、开源、免费、好用、高颜值
   image:
     src: /logo.png
