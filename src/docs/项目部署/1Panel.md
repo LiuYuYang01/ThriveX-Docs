@@ -113,22 +113,38 @@ ubuntu@10-60-211-244:/tmp/1panel-v1.10.29-lts-linux-amd64$
 
 ```env
 PORT=自定义项目端口号
+
 DB_INFO=数据库信息
 DB_USERNAME=数据库用户名，一般是 root
 DB_PASSWORD=数据库密码
+
 EMAIL_HOST=邮箱服务器
 EMAIL_PORT=邮箱服务器端口
 EMAIL_USERNAME=邮箱用户名
 EMAIL_PASSWORD=邮箱授权码（不是邮箱密码）
+
+BAIDU_IS_OPEN=是否开启百度统计（false｜true）
+BAIDU_CLIENT_KEY=百度统计ID
+BAIDU_CLIENT_SECRET=百度统计密钥
+BAIDU_REFRESH_TOKEN=百度统计刷新 Token 的值
+BAIDU_SITE_ID=需要统计的网站 ID
+
 DOMAIN=你的域名
 ```
 
-一段示例
+**一段示例**
+
+默认百度统计是关闭状态，可以不配置相关参数：
 
 ```env
-java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx --EMAIL_HOST=smtp.qq.com --EMAIL_PORT=465 --EMAIL_USERNAME=3311118881@qq.com --EMAIL_PASSWORD=abcdefg --DOMAIN=hyk416.cn
+java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx --EMAIL_HOST=smtp.qq.com --EMAIL_PORT=465 --EMAIL_USERNAME=3311118881@qq.com --EMAIL_PASSWORD=abcdefg --DOMAIN=liuyuyang.net
 ```
 
+如果设置为开启状态，则必须配置相关参数，否则会导致程序无法运行：
+
+```env
+java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx --EMAIL_HOST=smtp.qq.com --EMAIL_PORT=465 --EMAIL_USERNAME=3311118881@qq.com --EMAIL_PASSWORD=abcdefg --BAIDU_IS_OPEN=true --BAIDU_CLIENT_KEY=aaaaa  --BAIDU_CLIENT_SECRET=bbbb --BAIDU_REFRESH_TOKEN=ccccc --BAIDU_SITE_ID=17256000  --DOMAIN=liuyuyang.net
+```
 
 
 #### 创建数据库
@@ -254,7 +270,7 @@ Run `npm audit` for details.
 
 接下来后找到项目根目录中的 `.env` 文件，把相关信息改成自己的，注意后端域名协议必须是 `https`
 
-![image-20250618211522217](./assets/image-20250618211522217.png)
+![image-20250627201616839](./assets/image-20250627201616839.png)
 
 
 
