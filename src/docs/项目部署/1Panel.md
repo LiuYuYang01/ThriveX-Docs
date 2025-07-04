@@ -117,34 +117,16 @@ PORT=自定义项目端口号
 DB_INFO=数据库信息
 DB_USERNAME=数据库用户名，一般是 root
 DB_PASSWORD=数据库密码
-
-EMAIL_HOST=邮箱服务器
-EMAIL_PORT=邮箱服务器端口
-EMAIL_USERNAME=邮箱用户名
-EMAIL_PASSWORD=邮箱授权码（不是邮箱密码）
-
-BAIDU_IS_OPEN=是否开启百度统计（false｜true）
-BAIDU_CLIENT_KEY=百度统计ID
-BAIDU_CLIENT_SECRET=百度统计密钥
-BAIDU_REFRESH_TOKEN=百度统计刷新 Token 的值
-BAIDU_SITE_ID=需要统计的网站 ID
-
-DOMAIN=你的域名
 ```
 
-**一段示例**
-
-默认百度统计是关闭状态，可以不配置相关参数：
+环境变量示例
 
 ```env
-java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx --EMAIL_HOST=smtp.qq.com --EMAIL_PORT=465 --EMAIL_USERNAME=3311118881@qq.com --EMAIL_PASSWORD=abcdefg --DOMAIN=liuyuyang.net
+java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx
 ```
 
-如果设置为开启状态，则必须配置相关参数，否则会导致程序无法运行：
+![](./assets/image-20250618203123056.png)
 
-```env
-java -jar blog.jar --PORT=9003 --DB_INFO=mysql:3306/thrivex --DB_USERNAME=thrivex --DB_PASSWORD=xxxxxxxxxxxxxxxxxx --EMAIL_HOST=smtp.qq.com --EMAIL_PORT=465 --EMAIL_USERNAME=3311118881@qq.com --EMAIL_PASSWORD=abcdefg --BAIDU_IS_OPEN=true --BAIDU_CLIENT_KEY=aaaaa  --BAIDU_CLIENT_SECRET=bbbb --BAIDU_REFRESH_TOKEN=ccccc --BAIDU_SITE_ID=17256000  --DOMAIN=liuyuyang.net
-```
 
 
 #### 创建数据库
@@ -585,6 +567,6 @@ location / {
 
 如果对该项目进行二次开发，最终需将项目进行开源并保留版权 且 禁止任何商业行为
 
-最后希望大家能够请遵守开源协议：***\*AGPL-3.0 license\**** 
+最后希望大家能够请遵守开源协议：***AGPL-3.0 license***
 
 弘扬开源精神，从你我做起！
