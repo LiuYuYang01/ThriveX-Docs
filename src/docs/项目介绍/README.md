@@ -21,10 +21,10 @@
 
 🛠️ **技术架构：**
 
-前端：React **19**、**Next.js 15**、**TailwindCSS 4**、TypeScript、Zustand、Motion React、React Form Hooks、Echarts、Antd、Scss、Vercel、Docker
+前端：**React 19**、**Next.js 15**、**TailwindCSS 4**、TypeScript、Zustand、Motion React、React Form Hooks、Echarts、Hero UI、Antd UI、Scss、Vercel、Docker、百度统计、高德地图
 
 
-后端：**Spring Boot**、Mybatis Plus、MySQL、X File Storage、Swagger、Docker
+后端：**Spring Boot**、Mybatis Plus、Redis、MySQL、Docker、X File Storage、Swagger
 
 
 
