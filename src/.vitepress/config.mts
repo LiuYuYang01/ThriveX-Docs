@@ -26,7 +26,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '项目介绍', link: '/docs/项目介绍/README' },
       { text: '项目部署', link: '/docs/项目部署/1Panel' },
-      { text: '项目使用', link: '/docs/项目使用/README' }
+      { text: '项目使用', link: '/docs/项目使用/前端/修改 favicon.ico' }
     ],
 
     sidebar: [
@@ -56,8 +56,7 @@ export default defineConfig({
         text: '项目使用',
         collapsed: true,
         items: [
-          { text: '前言', link: '/docs/项目使用/README' },
-          { text: '前端', link: '/docs/项目使用/前端' },
+          { text: '前端', link: '/docs/项目使用/前端/修改 favicon.ico' },
         ]
       },
       {
