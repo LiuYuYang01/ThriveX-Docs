@@ -63,6 +63,7 @@ export default defineConfig({
         text: '第三方服务',
         collapsed: true,
         items: [
+          { text: '人机验证', link: '/docs/项目部署/API/人机验证' },
           { text: '高德地图', link: '/docs/项目部署/API/高德地图' },
           { text: '百度统计', link: '/docs/项目部署/API/百度统计' },
           { text: '对象存储', link: '/docs/项目部署/API/对象存储' },
