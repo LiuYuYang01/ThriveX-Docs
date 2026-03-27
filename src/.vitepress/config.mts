@@ -50,6 +50,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '1Panel', link: '/docs/项目部署/1Panel' },
+          { text: '宝塔', link: '/docs/项目部署/宝塔' },
         ]
       },
       {
