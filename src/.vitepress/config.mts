@@ -26,7 +26,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '项目介绍', link: '/docs/项目介绍/README' },
       { text: '项目部署', link: '/docs/项目部署/1Panel' },
-      { text: '项目使用', link: '/docs/项目使用/前端/修改 favicon.ico' }
+      { text: '项目使用', link: '/docs/项目使用/控制端/README' }
     ],
 
     sidebar: [
@@ -55,9 +55,35 @@ export default defineConfig({
       },
       {
         text: '项目使用',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: '前端', link: '/docs/项目使用/前端/修改 favicon.ico' },
+          {
+            text: '前端',
+            collapsed: true,
+            items: [
+              { text: '功能说明', link: '/docs/项目使用/前端/功能说明' },
+              { text: '修改 favicon.ico', link: '/docs/项目使用/前端/修改 favicon.ico' },
+            ]
+          },
+          {
+            text: '控制端',
+            collapsed: false,
+            items: [
+              { text: '使用总览', link: '/docs/项目使用/控制端/README' },
+              { text: '内容创作', link: '/docs/项目使用/控制端/内容创作' },
+              { text: '内容管理', link: '/docs/项目使用/控制端/内容管理' },
+              { text: '系统配置', link: '/docs/项目使用/控制端/系统配置' },
+              { text: '第三方配置', link: '/docs/项目使用/控制端/第三方配置' },
+              { text: '文件系统', link: '/docs/项目使用/控制端/文件系统' },
+            ]
+          },
+          {
+            text: '后端',
+            collapsed: true,
+            items: [
+              { text: '使用说明', link: '/docs/项目使用/后端/README' },
+            ]
+          },
         ]
       },
       {
